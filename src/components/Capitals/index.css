@@ -1,0 +1,55 @@
+.bg-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  background-color: #f8fafc;
+  width: 90%;
+  max-width: 500px;
+  padding: 15px 22px;
+  border-radius: 12px;
+}
+.app-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+}
+.select-container {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #cbd2d9;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.question-container {
+  display: flex;
+  align-items: center;
+}
+.question-text {
+    margin-left: 8px;
+    color: #323f4b;
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 15px;    
+}
+.country-name{
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
